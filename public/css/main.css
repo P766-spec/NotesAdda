@@ -1,5 +1,5 @@
 :root {
-  --background-color: #ffc770;
+  --background-color: #a0d8b3;
   --bs-primary-rgb: #12296c;
 }
 body {
@@ -71,9 +71,11 @@ h6 {
 }
 @media (min-width: 1200px) {
   .home {
-    background: url("../img/human-1.svg") left bottom no-repeat,
+    background: url("../img/handy-machine-learning.gif") left bottom no-repeat,
       url("../img/human-2.svg") right bottom no-repeat,
       url("../img/noise-bg.png") left top no-repeat, var(--background-color);
+    background-size: 400px 500px, 400px auto, cover;
+    background-position: left center, right bottom, left top;
   }
 }
 
@@ -89,4 +91,8 @@ h6 {
   position: absolute;
   right: -50px;
   bottom: -30px;
+}
+
+.username {
+  margin-left: 50px;
 }
